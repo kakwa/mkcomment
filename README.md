@@ -19,6 +19,6 @@ Usage
 -----
 
 ```bash
-me@my_comp > mkcomment 'my message'
+me@my_comp: $ mkcomment 'my message'
 ################################## my message ##################################
 ```
