@@ -1,0 +1,15 @@
+#!/usr/bin/env python
+import sys
+
+max_length = 80
+
+input_string = sys.argv[1]
+
+lenght_string = len(input_string)
+
+number_of_sharp = (max_length - lenght_string) / 2 - 1
+
+new_string = u'#'*number_of_sharp + ' ' + input_string + ' '  + u'#'*number_of_sharp
+new_string_lentgth = len(new_string)
+
+print u'#'*(max_length - new_string_lentgth) + new_string
